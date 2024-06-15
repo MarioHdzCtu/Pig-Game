@@ -1,7 +1,7 @@
 from src.models import Player, Game, TurnResult
 
 num_players = int(input('How many players will play?: '))
-target_score = int(input('What is the winning score?: '))
+target_score = int(input('What is the target winning score?: '))
 players: list[Player] = []
 
 for i in range(1, num_players+1):
