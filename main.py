@@ -1,4 +1,4 @@
-from src.models import Player, Game, TurnResult
+from src.models import Player, Game
 
 num_players = int(input('How many players will play?: '))
 target_score = int(input('What is the target winning score?: '))
